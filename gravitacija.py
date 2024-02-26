@@ -1,4 +1,4 @@
-print("OIS je zakon!")
+print("OIS je zakon! Pa se veliko se bomo naucili.")
 
 def izracun_gravitacije(visina: float) -> float:
     """
@@ -16,3 +16,10 @@ def izpis(visina: float) -> None:
     @param: visina (float): nadmorska višina v kilometrih
     """
     print(f"Gravitacijski pospešek na {visina} km nadmorske visine je {izracun_gravitacije(visina * 1000):.2f} m/s^2.")
+
+def main():
+    visina = int(input("Vnesite nadmorsko visino v km: "))
+    izpis(visina)
+
+if __name__ == "__main__":
+    main()

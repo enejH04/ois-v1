@@ -1,0 +1,1 @@
+print("OIS je zakon!")
